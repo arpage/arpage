@@ -292,17 +292,17 @@ jlcooper_cs102_cc_mapper( unsigned char *eb, event_zone * pz,
          case JLCOOPER_CS102_CC_ROTARY4:
          case JLCOOPER_CS102_CC_ROTARY5:
          case JLCOOPER_CS102_CC_ROTARY6:
-            cout << "jlcooper fader/rotary event. N/V:"
-                 << cc_number << '/' << cc_value << endl;
+            //cout << "jlcooper fader/rotary event. N/V:"
+            //     << cc_number << '/' << cc_value << endl;
             retval = cc_value;
             break;
             
          case JLCOOPER_CS102_CC_JOGSHUTTLE:
             {
             int decoded = toSignedInt(cc_value,7);
-            cout << "jlcooper jog/shuttle event. N/V: "
-                 << cc_number << '/' << decoded
-                 << endl;
+            //cout << "jlcooper jog/shuttle event. N/V: "
+            //     << cc_number << '/' << decoded
+            //     << endl;
             retval = cc_value;
             }
             break;
@@ -313,14 +313,14 @@ jlcooper_cs102_cc_mapper( unsigned char *eb, event_zone * pz,
                retval = toggle_state[cc_number] ? 0 : 127;
                toggle_state[cc_number] = ! toggle_state[cc_number];
 
-               cout << "jlcooper mode btn event: cc/val " << cc_number << "/"
-                    << cc_value << endl;
+               //cout << "jlcooper mode btn event: cc/val " << cc_number << "/"
+               //     << cc_value << endl;
                
                syx[4] = mode_button_led_cycle[mode_button_led_cycle_pos];
                syx[5] = 0x00;
                
-               cout << "[PRE] jlcooper mode btn event. [POS] syx[4]:  [" << mode_button_led_cycle_pos << "]"
-                    << (unsigned)syx[4] << "/ syx[5]:" << (unsigned)syx[5] << endl;
+               //cout << "[PRE] jlcooper mode btn event. [POS] syx[4]:  [" << mode_button_led_cycle_pos << "]"
+               //     << (unsigned)syx[4] << "/ syx[5]:" << (unsigned)syx[5] << endl;
                
                eb = jack_midi_event_reserve(pz->out_port_buff, NFRAMES, 7);
                make_syx(7,syx,eb);
@@ -329,8 +329,8 @@ jlcooper_cs102_cc_mapper( unsigned char *eb, event_zone * pz,
                syx[4] = mode_button_led_cycle[mode_button_led_cycle_pos];
                syx[5] = 0x7F;
                
-               cout << "[PST] jlcooper mode btn event. [POS] syx[4]:  [" << mode_button_led_cycle_pos << "]"
-                    << (unsigned)syx[4] << " / syx[5]:" << (unsigned)syx[5] << endl;
+               //cout << "[PST] jlcooper mode btn event. [POS] syx[4]:  [" << mode_button_led_cycle_pos << "]"
+               //     << (unsigned)syx[4] << " / syx[5]:" << (unsigned)syx[5] << endl;
                
                eb = jack_midi_event_reserve(pz->out_port_buff, NFRAMES, 7);
                make_syx(7,syx,eb);
@@ -344,8 +344,8 @@ jlcooper_cs102_cc_mapper( unsigned char *eb, event_zone * pz,
             if ( ! cc_value ) {
                retval = toggle_state[cc_number] ? 0 : 127;
                toggle_state[cc_number] = ! toggle_state[cc_number];
-               cout << "jlcooper toggle event. N/V/R:  "
-                    << cc_number << '/' << cc_value << '/' << retval << endl;
+               //cout << "jlcooper toggle event. N/V/R:  "
+               //     << cc_number << '/' << cc_value << '/' << retval << endl;
             } else {
                publish_event = 0;
             }
@@ -370,7 +370,7 @@ jlcooper_cs102_cc_mapper( unsigned char *eb, event_zone * pz,
             case JLCOOPER_CS102_CC_BTN_FADER7:
             case JLCOOPER_CS102_CC_BTN_FADER8:
                  int xlatval = mode_button_cc_cycle[mode_button_led_cycle_pos][cc_number];
-                 cout << "Fader Button " << cc_number << " translated to " << xlatval << endl;
+                 //cout << "Fader Button " << cc_number << " translated to " << xlatval << endl;
                  cc_number = xlatval;
                  break;
          };
