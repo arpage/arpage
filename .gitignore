@@ -1,0 +1,9 @@
+
+.anjuta*
+arpage.anjuta
+autom4te.cache
+*~
+*.bak
+.svn*
+.cvs*
+

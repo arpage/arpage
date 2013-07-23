@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/arpage/!svn/ver/109/trunk/src
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/arpage/!svn/ver/128/trunk/src/Makefile.in
+END
+arpage.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/arpage/!svn/ver/73/trunk/src/arpage.h
+END
+ccrange.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/arpage/!svn/ver/73/trunk/src/ccrange.h
+END
+ledblue_off.png
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/arpage/!svn/ver/73/trunk/src/ledblue_off.png
+END
+ledblue_on.png
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/arpage/!svn/ver/73/trunk/src/ledblue_on.png
+END
+arpstorage.cc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/arpage/!svn/ver/128/trunk/src/arpstorage.cc
+END
+jack_process.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/arpage/!svn/ver/73/trunk/src/jack_process.h
+END
+arpstorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/arpage/!svn/ver/98/trunk/src/arpstorage.h
+END
+scales.cc
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/arpage/!svn/ver/73/trunk/src/scales.cc
+END
+zonage.ui
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/arpage/!svn/ver/106/trunk/src/zonage.ui
+END
+arppatt.cc
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/arpage/!svn/ver/128/trunk/src/arppatt.cc
+END
+arppatt.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/arpage/!svn/ver/128/trunk/src/arppatt.h
+END
+ledgreen_off.png
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/arpage/!svn/ver/73/trunk/src/ledgreen_off.png
+END
+zonage.png
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/arpage/!svn/ver/93/trunk/src/zonage.png
+END
+arpui.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/arpage/!svn/ver/128/trunk/src/arpui.h
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/arpage/!svn/ver/128/trunk/src/main.cc
+END
+arpage.ui
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/arpage/!svn/ver/128/trunk/src/arpage.ui
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/arpage/!svn/ver/73/trunk/src/.cvsignore
+END
+midimsg.cc
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/arpage/!svn/ver/73/trunk/src/midimsg.cc
+END
+ledred_on.png
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/arpage/!svn/ver/73/trunk/src/ledred_on.png
+END
+midimsg.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/arpage/!svn/ver/73/trunk/src/midimsg.h
+END
+arpage.png
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/arpage/!svn/ver/93/trunk/src/arpage.png
+END
+jack_process.cc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/arpage/!svn/ver/128/trunk/src/jack_process.cc
+END
+arprun.cc
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/arpage/!svn/ver/109/trunk/src/arprun.cc
+END
+arprun.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/arpage/!svn/ver/128/trunk/src/arprun.h
+END
+event_zone.cc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/arpage/!svn/ver/73/trunk/src/event_zone.cc
+END
+scales.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/arpage/!svn/ver/73/trunk/src/scales.h
+END
+pattelem.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/arpage/!svn/ver/73/trunk/src/pattelem.h
+END
+arpui.cc
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/arpage/!svn/ver/128/trunk/src/arpui.cc
+END
+ledgreen_on.png
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/arpage/!svn/ver/73/trunk/src/ledgreen_on.png
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/arpage/!svn/ver/128/trunk/src/Makefile.am
+END
+ledred_off.png
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/arpage/!svn/ver/73/trunk/src/ledred_off.png
+END
